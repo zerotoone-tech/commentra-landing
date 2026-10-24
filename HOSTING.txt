@@ -1,0 +1,16 @@
+Commentra static website
+
+Upload these files and folders to your static host's web root:
+
+  index.html
+  styles.css
+  privacy.css
+  assets/
+  privacy/
+
+No Node.js, npm, installation, build step, or application server is required.
+The homepage is index.html. The privacy page is privacy/index.html,
+served at /privacy/ (most static hosts redirect /privacy to /privacy/).
+
+You can open index.html directly in your browser to preview the site.
+The styles use Google Fonts when available, with system font fallbacks.
